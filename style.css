@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+
+}
+
+#back {
+    background: url(./배경화면2.png) no-repeat center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#left {
+    background-color: azure;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    max-width: 50%;
+
+}
+
+#time {
+    flex-grow: 1;
+    text-align: left;
+    width: fit-content;
+    color: white;
+    background-color: aquamarine;
+
+}
+
+#date {
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+
+}
+#sun {
+    flex-grow: 1;
+}
+#mon{
+    flex-grow: 1;
+}
+#tue{
+    flex-grow: 1;
+}
+#wed{
+    flex-grow: 1;
+}
+#thu{
+    flex-grow: 1;
+}
+#fri{
+    flex-grow: 1;
+}
+#sat{
+    flex-grow: 1;
+}
+#important {
+    background-color: blanchedalmond;
+    flex-grow: 1;
+    display: flex;
+    flex-shrink: 0;
+}
+
+#cru {
+    background-color: blueviolet;
+}
